@@ -8,9 +8,9 @@ Test: "it will iterate across string to find the number 1"
 Code: puppets(410)
 Expected Output: phraseArray [1]; "test"
 
-Test: 
-Code:
-Expected Output:
+Test: "it will find the number 1 within the array and return 'Beep!'."
+Code: puppets(109);
+Expected Output: "Beep!"
 
 Test: 
 Code:
