@@ -5,6 +5,8 @@ function puppets(str) {
   for (let i = 0; i <= str; i++); {
     if (str.toString().includes(1)) {
       phraseArray.push("Beep!");
+    } else if () {
+      
     }
     else {
       phraseArray.push(str);

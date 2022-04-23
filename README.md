@@ -12,9 +12,9 @@ Test: "it will find the number 1 within the array and return 'Beep!'."
 Code: puppets(109);
 Expected Output: "Beep!"
 
-Test: 
-Code:
-Expected Output:
+Test: "it will find the number 2 within the array and return 'Boop!'."
+Code: puppets(2099)
+Expected Output: "Boop!"
 
 Test: 
 Code:
