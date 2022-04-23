@@ -6,7 +6,7 @@ Expected Output: ["1"]
 
 Test: "it will iterate across string to find the number 1"
 Code: puppets(410)
-Expected Output: phraseArray [1]; "1"
+Expected Output: phraseArray [1]; "test"
 
 Test: 
 Code:
