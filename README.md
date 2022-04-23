@@ -5,8 +5,8 @@ Code:
 Expected Output: ["1"]
 
 Test: "it will iterate across string to find the number 1"
-Code:
-Expected Output:
+Code: puppets(410)
+Expected Output: phraseArray [1]; "1"
 
 Test: 
 Code:
