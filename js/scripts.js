@@ -2,5 +2,6 @@
 
 function puppets(str) {
   let phraseArray = [];
-  Array.from(str);
+  phraseArray.push(str);
 }
+
