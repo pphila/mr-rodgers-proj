@@ -18,3 +18,6 @@ function puppets(str) {
   }
   return phraseArray;
 }
+
+// UI Logic
+

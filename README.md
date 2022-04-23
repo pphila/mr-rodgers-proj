@@ -20,6 +20,6 @@ Test: "It will find the number 3 within the array and replace it with 'Won't you
 Code: puppets(32);
 Expected Output: "Won't you be my neighbor?"
 
-Test: 
-Code:
-Expected Output:
+Test: "It will return an array of numbers from 0 to the user's inputed number"
+Code: puppets(7);
+Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7]
