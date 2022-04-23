@@ -12,13 +12,13 @@ Test: "it will find the number 1 within the array and return 'Beep!'."
 Code: puppets(109);
 Expected Output: "Beep!"
 
-Test: "it will find the number 2 within the array and return 'Boop!'."
+Test: "It will find the number 2 within the array and return 'Boop!'."
 Code: puppets(2099)
 Expected Output: "Boop!"
 
-Test: 
-Code:
-Expected Output:
+Test: "It will find the number 3 within the array and replace it with 'Won't you be my neighbor?'"
+Code: puppets(32);
+Expected Output: "Won't you be my neighbor?"
 
 Test: 
 Code:
