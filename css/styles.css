@@ -23,7 +23,9 @@ h1 {
 
 #response {
   display: none;
-  text-align: center;
-  border: 800px;
   background-color: rgba(255, 255, 255, 0.85);
+  border: 800px;
+  text-align: center;
+  margin-top: 15px;
+  padding-bottom: 25px;
 }

@@ -25,7 +25,7 @@ $(document).ready(function() {
     let phraseNumInput = $("input#phraseNumber").val();
 
     $(".user").text(userName);
-    $(".phraseNumber").text(puppets(phraseNumInput));
+    $(".phraseNumber").text(puppets(phraseNumInput).join(", "));
 
     $("#response").show();
   });
