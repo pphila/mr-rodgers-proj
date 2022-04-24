@@ -1,3 +1,35 @@
+# Mr Roboger's Neighborhood
+#### By Peter Philavanh
+
+
+#### Mr. Roboger's Neighborhood
+
+## Technology Used:
+* VS Code
+* Javascript
+* Jquery
+* HTML
+* GitHub
+
+## Description
+This a fun webpage that is themed after "Mister Rogers' Neighborhood. Enter your name and a number and it will respond to your inputs with specific phrases according to the number the user may input. This webpage was developed independently and was used as practice for writing loops and branches with JavaScript.
+
+## Setup/Installation Requirements
+* Clone repository to your desktop from Github url to save a copy onto device
+* Using cmd GUI, navigate to the cloned directory named "language-selector.html"
+* Continued in cmd GUI, open index.html to view project locally
+* Directory contents such as css, img, scripts, and readme can also be accessed
+
+## Known Bugs
+* No known bugs
+* Please report any known bugs to author via email: efl2ice89@gmail.com
+
+## License
+Copy right (C) April 2022 Peter Philavanh.
+Image: (C) 2018 The Fred Rogers Company. All Rights Reserved.
+
+## TDD log
+
 Describe puppets()
 
 Test: "It will push a string into an array"
