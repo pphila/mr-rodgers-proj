@@ -18,3 +18,15 @@ function puppets(number) {
 
 // UI Logic
 
+$(document).ready(function() {
+  $("#formOne").submit(function(event) {
+    event.preventDefault();
+    let userName = $("input#user").val();
+    let phraseNumInput = $("input#phraseNumber").val();
+
+    $(".user").text(userName);
+    $(".phraseNumber").text(puppets(phraseNumInput));
+
+    $("#response").show();
+  });
+});

@@ -1,0 +1,29 @@
+body {
+  font-family: 'Sansita Swashed', cursive;
+  background-image: url(../img/neighborhood.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-align: center;
+  position: relative;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 800px;
+  text-align: left;
+  padding: 25px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+#response {
+  display: none;
+  text-align: center;
+  border: 800px;
+  background-color: rgba(255, 255, 255, 0.85);
+}

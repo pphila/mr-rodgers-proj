@@ -5,23 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&family=Work+Sans:wght@100;300&display=swap" rel="stylesheet">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
   <title>Mr. Roboger's Neighborhood!</title>
 </head>
 <body>
   <div class="container">
-    <h1>Welcome to Mr. Roboger's Neighborhood!</h1>
+    <h1>Welcome to Mr. Robogers' Neighborhood!</h1>
     <form id="formOne">
       <div class="form-group">
-        <label for="user">Hey neighbor, what is your name?</label>
-        <input id="useName" class="form-control" type="text">
+        <label for="user">Hey neighbor, what's your name?</label>
+        <input id="user" class="form-control" type="text">
       </div>
       <div class="formOne">
-        <label for="number">Enter a number and I'll sha'll sing you a song!</label>
+        <label for="phraseNumber">Enter a number and I'll sha'll respond!</label>
         <input id="phraseNumber" class="form-control" type="text">
       </div>
+      <button type="submit" class="btn">Submit!</button>
     </form>
+  </div>
+  <div id="response">
+    <h2>It's a beautiful day in this neighborhood!</h2>
+    <p>Hello <span class="user"></span>, <span class="phraseNumber"></span>.</p>
   </div>
 </body>
 </html>
